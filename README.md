@@ -2,11 +2,11 @@
 
 ![blog](https://postfiles.pstatic.net/MjAxOTEyMDlfMTY1/MDAxNTc1ODg5ODEyNTUy.dsQ2J9adkkJhSWv3dHjmv4unz7lpj69ldlPXvQzB618g.o0gtxggNsGFgub7sHkVoaWsxIa13B8y497wAhepdmXEg.JPEG.getinthere/Screenshot_68.jpg?type=w773)
 
-#### 1. 전화번호부 앱
-- 전화번호 추가
-- 전화번호 삭제
-- 전화번호 전체 삭제
-- 전화번호 수정
+#### 1. Email 연락처 앱
+- 연락처 추가
+- 연락처 삭제
+- 연락처 전체 삭제
+- 연락처 수정
 - 프로파일 이미지 업로드
 - ROOM 활용
 
