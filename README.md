@@ -39,7 +39,14 @@ implementation 'de.hdodenhof:circleimageview:3.0.1'
     android:requestLegacyExternalStorage="true"
     -- 생략
 ```
-
+- 메인쓰레드에서 ROOM에 DML하는 것이 허용되지 않기 때문에 아래 추가. 
+```java
+// 메인쓰레드에서 쿼리 하는 것을 허용(추천하지 않음.기본 예제여서 이렇게 함)
+        contactAppDatabase = Room.databaseBuilder(getApplicationContext(), ContactAppDatabase.class, "ContactDB")
+                .allowMainThreadQueries()
+                .fallbackToDestructiveMigration() // DB 스키마 변경시 => version 번호 바꾸려면 필요
+                .build();
+```
 #### 3. Blog 주소
 <https://blog.naver.com/getinthere/221695431900>
 
